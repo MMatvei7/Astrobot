@@ -113,55 +113,55 @@ def reply(message: telebot.types.Message):
 @bot.message_handler(commands=["Gemini"])
 def reply(message: telebot.types.Message):
     bot.reply_to(message, get_forecast('Moon')['report'])
-    bot.reply_to(message, "Set another Date!")
+    bot.reply_to(message, "Set another Date! /setdate")
 
 
 @bot.message_handler(commands=["Scorpio"])
 def reply(message: telebot.types.Message):
     bot.reply_to(message, get_forecast('Mars')['report'] + '\n')
-    bot.reply_to(message, "Set another Date!")
+    bot.reply_to(message, "Set another Date! /setdate")
 
 
 @bot.message_handler(commands=["Capricorn"])
 def reply(message: telebot.types.Message):
     bot.reply_to(message, get_forecast('Mercury')['report'] + '\n')
-    bot.reply_to(message, "Set another Date!")
+    bot.reply_to(message, "Set another Date! /setdate")
 
 
 @bot.message_handler(commands=["Aries"])
 def reply(message: telebot.types.Message):
     bot.reply_to(message, get_forecast('Jupiter')['report'] + '\n')
-    bot.reply_to(message, "Set another Date!")
+    bot.reply_to(message, "Set another Date! /setdate")
 
 
 @bot.message_handler(commands=["Aquarius"])
 def reply(message: telebot.types.Message):
     bot.reply_to(message, get_forecast('Venus')['report'])
-    bot.reply_to(message, "Set another Date!")
+    bot.reply_to(message, "Set another Date! /setdate")
 
 
 @bot.message_handler(commands=["Sagittarius"])
 def reply(message: telebot.types.Message):
     bot.reply_to(message, get_forecast('Saturn')['report'] + '\n')
-    bot.reply_to(message, "Set another Date!")
+    bot.reply_to(message, "Set another Date! /setdate")
 
 
 @bot.message_handler(commands=["Taurus"])
 def reply(message: telebot.types.Message):
     bot.reply_to(message, get_forecast('Uranus')['report'] + '\n')
-    bot.reply_to(message, "Set another Date!")
+    bot.reply_to(message, "Set another Date! /setdate")
 
 
 @bot.message_handler(commands=["Cancer"])
 def reply(message: telebot.types.Message):
     bot.reply_to(message, get_forecast('Neptune')['report'] + '\n')
-    bot.reply_to(message, "Set another Date!")
+    bot.reply_to(message, "Set another Date! /setdate")
 
 
 @bot.message_handler(commands=["Libra"])
 def reply(message: telebot.types.Message):
     bot.reply_to(message, get_forecast('Pluto')['report'] + '\n')
-    bot.reply_to(message, "Set another Date!")
+    bot.reply_to(message, "Set another Date! /setdate")
 
 
 if __name__ == "__main__":
